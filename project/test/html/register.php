@@ -154,8 +154,8 @@ function get_post($conn, $var)
                 <h3> Download our app</h3>
                 <p>  On All Platforms</p>
                 <div class="app-logo">
-                    <a href="https://www.apple.com/ca/?afid=p238%7CsQDZ67JfO-dc_mtid_1870765e38482_pcrid_454193119641_pgrid_39429563412_&cid=aos-ca-kwGO-brand--slid---product-"><img src="pics/googlelogo.png"></a>
-                    <a href="https://shop.samsung.com/ca/"><img src="pics/appstore.png"></a>
+                <a href="https://play.google.com/store"><img src="pics/googlelogo.png"></a>
+                    <a href="https://www.apple.com/ca/app-store/"><img src="pics/appstore.png"></a>
                 </div>
             </div>
             <div class="footer-col-2">
