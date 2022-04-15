@@ -8,7 +8,7 @@ session_start();
 <html lang="en">
   <head>
       <meta charset="UTF-8">
-      <meta name=="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Register</title>
       <link rel="stylesheet" href="../css/main.css">
       <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
@@ -19,7 +19,7 @@ session_start();
       <div class="container">
           <div class="navbar">
           <div class = "logo">
-              <a href="test.php"><img src="pics/logocom.png" width="125px"></a>
+          <a href="test.php"><img class="logo" src="pics/logocom.jpg"></a>
           </div>
           <nav>
               <ul id="menuitems" style="visibility:hidden;">
@@ -159,8 +159,7 @@ function get_post($conn, $var)
                 </div>
             </div>
             <div class="footer-col-2">
-                <img src="pics/logopurple.jpg">
-                <p> designer for everyone</p>
+            <img src="pics/footerlogo.jpg">
             </div>
             <div class="footer-col-3">
                 <h3>usefull links</h3>
@@ -193,8 +192,8 @@ else
                 <h3>Social Media</h3>
                 <ul>
                     <li><a href="https://www.facebook.com/">Facebook </a></li>
-                    <li> <a href="https://www.twitter.com/">twitter</a> </li>
-                    <li><a href="https://www.instagram.com/yassoof_7">instaGram</a> </li>
+                    <li> <a href="https://www.twitter.com/">Twitter</a> </li>
+                    <li><a href="https://www.instagram.com/">Instagram</a> </li>
                     <li><a href="https://www.github.com/">GitHub </a></li>
 
                 </ul>
