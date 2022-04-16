@@ -77,7 +77,7 @@ function get_post($conn, $var)
       <div class="container">
           <div class="navbar">
           <div class = "logo">
-              <a href="test.php"><img src="pics/logocom.png" width="125px"></a>
+              <a href="test.php"><img class="logo" src="pics/logocom.jpg"></a>
           </div>
           <nav>
               <ul id="menuitems" style="visiblity: hidden;">
@@ -143,7 +143,7 @@ function get_post($conn, $var)
             <img src="pics/footerlogo.jpg">
             </div>
             <div class="footer-col-3">
-                <h3>Useful links</h3>
+                <h3>Useful Links</h3>
                 <ul>
 
                   
@@ -181,7 +181,7 @@ else
             </div>
         </div>
         <hr>
-        <p class="copyright"> Copyright 2020 - Group 17 ™</p>
+        <p class="copyright"> Copyright 2022 - Group 17 ™</p>
     </div>
 </div>
 </div>

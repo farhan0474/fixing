@@ -250,7 +250,7 @@ else
             </div>
         </div>
         <hr>
-        <p class="copyright"> Copyright 2020 - Group 17 ™</p>
+        <p class="copyright"> Copyright 2022 - Group 17 ™</p>
     </div>
 </div>
 </div>

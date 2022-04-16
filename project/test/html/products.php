@@ -227,10 +227,6 @@ for ($j = 0;$j < $rows;++$j)
             </div>
             <div class="footer-col-2">
                 <img src="pics/footerlogo.jpg">
-<<<<<<< HEAD
-                <p> designer for everyone</p>
-=======
->>>>>>> main
             </div>
             <div class="footer-col-3">
                 <h3>Useful Links</h3>

@@ -113,37 +113,30 @@ _END;
       <h2 class="title"> Shoe Collection</h2>
       <div class="row">
           <div class="col-4">
-               <a href='<?php printf("%s?item_id=%s","single.php" , '202343') ?>'><img src="pics/202343.jpg"></a>
+              <a href='<?php printf("%s?item_id=%s","single.php" , '202343') ?>'><img src="pics/202343.jpg"></a>
               <h4>Travis Scott's Jordans</h4>
               <p>1250.00</p>
           </div>
           <div class="col-4">
-             
-               <a href='<?php printf("%s?item_id=%s","single.php" , '202342') ?>'><img src="pics/202342.jpg"></a>
-
+              <a href='<?php printf("%s?item_id=%s","single.php" , '202342') ?>'><img src="pics/202342.jpg"></a>
               <h4>Cactus Jack 6's</h4>
               <p>$750.00</p>
           </div>
           <div class="col-4">
-              
-               <a href='<?php printf("%s?item_id=%s","single.php" , '202344') ?>'><img src="pics/202344.jpg"></a>
+              <a href='<?php printf("%s?item_id=%s","single.php" , '202344') ?>'><img src="pics/202344.jpg"></a>
               <h4>Cactus Jack Lows</h4>
               <p>$650.00</p>
           </div>
           <div class="col-4">
-              
-         <a href='<?php printf("%s?item_id=%s","single.php" , '202339') ?>'><img src="pics/202339.jpg"></a>
-
+              <a href='<?php printf("%s?item_id=%s","single.php" , '202339') ?>'><img src="pics/202339.jpg"></a>
               <h4>Red Jordan 1s</h4>
               <p>$1200.00</p>
           </div>
           <div class="col-4">
               <a href='<?php printf("%s?item_id=%s","single.php" , '202341') ?>'><img src="pics/202341.jpg"></a>
-
               <h4>Off-White Jordans</h4>
               <p>$1250.00</p>
           </div>
-          
       </div>
       </div>
       

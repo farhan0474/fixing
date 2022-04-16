@@ -111,27 +111,27 @@ if ($conn->connect_error) die($conn->connect_error);
       <h2 class="title"> Shoe Collection</h2>
       <div class="row">
           <div class="col-4">
-              <img src="pics/202343.jpg">
+              <a href='<?php printf("%s?item_id=%s","single_admin.php" , '202343') ?>'><img src="pics/202343.jpg"></a>
               <h4>Travis Scott's Jordans</h4>
               <p>1250.00</p>
           </div>
           <div class="col-4">
-              <img src="pics/202342.jpg">
+              <a href='<?php printf("%s?item_id=%s","single_admin.php" , '202342') ?>'><img src="pics/202342.jpg"></a>
               <h4>Cactus Jack 6's</h4>
               <p>$750.00</p>
           </div>
           <div class="col-4">
-              <img src="pics/202344.jpg">
+              <a href='<?php printf("%s?item_id=%s","single_admin.php" , '202344') ?>'><img src="pics/202344.jpg"></a>
               <h4>Cactus Jack Lows</h4>
               <p>$650.00</p>
           </div>
           <div class="col-4">
-              <img src="pics/202339.jpg">
+              <a href='<?php printf("%s?item_id=%s","single_admin.php" , '202339') ?>'><img src="pics/202339.jpg"></a>
               <h4>Red Jordan 1s</h4>
               <p>$1200.00</p>
           </div>
           <div class="col-4">
-              <img src="pics/202341.jpg">
+              <a href='<?php printf("%s?item_id=%s","single_admin.php" , '202341') ?>'><img src="pics/202341.jpg"></a>
               <h4>Off-White Jordans</h4>
               <p>$1250.00</p>
           </div>
@@ -224,7 +224,7 @@ if ($conn->connect_error) die($conn->connect_error);
                 <h3>Social Media</h3>
                 <ul>
                     <li><a href="https://www.facebook.com/">Facebook </a></li>
-                    <li> <a href="https://www.twitter.com/">twitter</a> </li>
+                    <li> <a href="https://www.twitter.com/">Twitter</a> </li>
                     <li><a href="https://www.instagram.com/">Instagram</a> </li>
                     <li><a href="https://www.github.com/">GitHub </a></li>
 
