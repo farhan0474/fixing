@@ -29,7 +29,7 @@ else{
       <div class="container">
           <div class="navbar">
           <div class = "logo">
-              <a href="test.php"><img src="pics/logocom.png" width="125px"></a>
+              <a href="test.php"><img class="logo" src="pics/logocom.jpg"></a>
           </div>
           <nav>
               <ul id="menuitems">
@@ -210,8 +210,7 @@ for ($j = 0;$j < $rows;++$j)
                 </div>
             </div>
             <div class="footer-col-2">
-                <img src="pics/logopurple.jpg">
-                <p> designer for everyone</p>
+                <img src="pics/footerlogo.jpg">
             </div>
             <div class="footer-col-3">
                 <h3>usefull links</h3>
@@ -252,7 +251,7 @@ else
             </div>
         </div>
         <hr>
-        <p class="copyright"> Copyright 2020 - WildCard™</p>
+        <p class="copyright"> Copyright 2020 - Group 17™</p>
     </div>
 </div>
 </div>
