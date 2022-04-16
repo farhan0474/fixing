@@ -194,9 +194,36 @@ for ($j = 0;$j < $rows;++$j)
 ?>
       </div> ---->
       </div>
-      
-  
-  
+
+      <div class="video">
+          <?php
+          if ($listnum == 0)
+          {
+
+          }
+          else
+          {
+
+              $query = "SELECT * FROM Category WHERE ColumnId='" . $listnum . "'";
+              $result = $conn->query($query);
+              $name = $result->fetch_assoc() ['ColumnId'];
+              $listOfCategory = array(1, 5, 2);
+              for($i = 0; $i < 3; $i++){
+                  if($name == $listOfCategory[$i]){
+                      if($listOfCategory[$i] == 1){
+                          echo "<video src='adidas.mp4' controls></video>";
+                      }
+                      else if($listOfCategory[$i] == 5){
+                          echo "<video src='nike.mp4' controls></video>";
+                      }
+                      else if($listOfCategory[$i] == 2){
+                          echo "<video src='puma.mp4' controls></video>";
+                      }
+                  }
+              }
+          }
+          ?>
+      </div>
 <!--- footer--->
 <div class="footer">
     <div class="container">
