@@ -62,10 +62,8 @@ else
       
       <div class="row row-2">
           <?php
-$hn = 'localhost'; //hostname
-$db = 'mahmoud2_mahmoud2db'; //database
-$un = 'mahmoud2_mahmoud2db'; //username
-$pw = 'mypassword'; //password
+include 'login.php';
+
 $conn = new mysqli($hn, $un, $pw, $db);
 if ($conn->connect_error) die($conn->connect_error);
 
