@@ -6,7 +6,7 @@ session_start();
 <html lang="en">
   <head>
       <meta charset="UTF-8">
-      <meta name=="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Edit Collection</title>
       <link rel="stylesheet" href="../css/main.css">
       <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
@@ -205,8 +205,8 @@ for ($j = 0;$j < $rows;++$j)
                 <h3> Download our app</h3>
                 <p>  On All Platforms</p>
                 <div class="app-logo">
-                    <a href="https://www.apple.com/ca/?afid=p238%7CsQDZ67JfO-dc_mtid_1870765e38482_pcrid_454193119641_pgrid_39429563412_&cid=aos-ca-kwGO-brand--slid---product-"><img src="pics/googlelogo.png"></a>
-                    <a href="https://shop.samsung.com/ca/"><img src="pics/appstore.png"></a>
+                <a href="https://play.google.com/store"><img src="pics/googlelogo.png"></a>
+                <a href="https://www.apple.com/ca/app-store/"><img src="pics/appstore.png"></a>
                 </div>
             </div>
             <div class="footer-col-2">
@@ -245,7 +245,7 @@ else
                 <ul>
                     <li><a href="https://www.facebook.com/">Facebook </a></li>
                     <li> <a href="https://www.twitter.com/">twitter</a> </li>
-                    <li><a href="https://www.instagram.com/yassoof_7">instaGram</a> </li>
+                    <li><a href="https://www.instagram.com/">Instagram</a> </li>
                     <li><a href="https://www.github.com/">GitHub </a></li>
 
                 </ul>
