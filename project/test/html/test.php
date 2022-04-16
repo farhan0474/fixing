@@ -208,8 +208,8 @@ _END;
             <div class="footer-col-3">
                 <h3>Useful Links</h3>
                 <ul>
-       <li><a href="test.php">Home</a></li>
-                  <li><a href="products.php">Collection</a></li>
+                    <li><a href="test.php">Home</a></li>
+                    <li><a href="products.php">Collection</a></li>
                   
                   <?php
                     if(isset($_POST['username'])){
@@ -222,7 +222,7 @@ _END;
                     {
                         echo ' <li><a href="loginpage.php">Log-in</a></li><li><a href="register.php">Register</a></li>';
                     }
-                  
+
                   ?>
                  
 

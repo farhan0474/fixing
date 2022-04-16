@@ -141,11 +141,10 @@ function get_post($conn, $var)
                 </div>
             </div>
             <div class="footer-col-2">
-            <img src="pics/footerlogo.jpg">
-                <p> designer for everyone</p>
+                <img src="pics/footerlogo.jpg">
             </div>
             <div class="footer-col-3">
-                <h3>Useful links</h3>
+                <h3>Useful Links</h3>
                 <ul>
 
                   
