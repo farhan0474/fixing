@@ -14,7 +14,7 @@ body {
 }
 
 .parallax {
-    background: url('../html/pics/city.jpg') no-repeat center;
+    background: url('../html/pics/citym.jpg') no-repeat center;
     opacity: 0.8;
     border-radius: 20px;
     background-size: cover;
