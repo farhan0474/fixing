@@ -8,7 +8,7 @@ session_start();
 <html lang="en">
   <head>
       <meta charset="UTF-8">
-      <meta name=="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Log in</title>
       <link rel="stylesheet" href="../css/main.css">
       <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
@@ -33,8 +33,7 @@ session_start();
               </ul>
           </nav>
           <img src="pics/cart.png" style="visibility: hidden;" width="30px" height="30px">
-          <img src="pics/menu.png" class="menu-icon" style="visibility:hidden;" onclick="menutoggle()">
-      </div>
+          <img src="pics/menu.png" class="menu-icon" onclick="menutoggle()">      </div>
       </div>
       
       
@@ -142,7 +141,7 @@ function get_post($conn, $var)
                 </div>
             </div>
             <div class="footer-col-2">
-                <img src="pics/logopurple.jpg">
+            <img src="pics/footerlogo.jpg">
                 <p> designer for everyone</p>
             </div>
             <div class="footer-col-3">
