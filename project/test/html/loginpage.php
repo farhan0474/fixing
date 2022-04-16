@@ -141,15 +141,19 @@ function get_post($conn, $var)
                 </div>
             </div>
             <div class="footer-col-2">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
             <img src="pics/footerlogo.jpg">
 =======
                 <img src="pics/footerlogo.jpg">
 >>>>>>> Stashed changes
                 <p> designer for everyone</p>
+=======
+                <img src="pics/footerlogo.jpg">
+>>>>>>> main
             </div>
             <div class="footer-col-3">
-                <h3>Useful links</h3>
+                <h3>Useful Links</h3>
                 <ul>
 
                   

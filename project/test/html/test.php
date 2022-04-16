@@ -208,8 +208,8 @@ _END;
             <div class="footer-col-3">
                 <h3>Useful Links</h3>
                 <ul>
-       <li><a href="test.php">Home</a></li>
-                  <li><a href="products.php">Collection</a></li>
+                    <li><a href="test.php">Home</a></li>
+                    <li><a href="products.php">Collection</a></li>
                   
                   <?php
                     if(isset($_POST['username'])){
@@ -222,7 +222,7 @@ _END;
                     {
                         echo ' <li><a href="loginpage.php">Log-in</a></li><li><a href="register.php">Register</a></li>';
                     }
-                  
+
                   ?>
                  
 
@@ -232,7 +232,7 @@ _END;
                 <h3>Social Media</h3>
                 <ul>
                     <li><a href="https://www.facebook.com/">Facebook </a></li>
-                    <li> <a href="https://www.twitter.com/">twitter</a> </li>
+                    <li> <a href="https://www.twitter.com/">Twitter</a> </li>
                     <li><a href="https://www.instagram.com/">Instagram</a> </li>
                     <li><a href="https://www.github.com/">GitHub </a></li>
 

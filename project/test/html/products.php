@@ -229,7 +229,10 @@ for ($j = 0;$j < $rows;++$j)
             </div>
             <div class="footer-col-2">
                 <img src="pics/footerlogo.jpg">
+<<<<<<< HEAD
                 <p> designer for everyone</p>
+=======
+>>>>>>> main
             </div>
             <div class="footer-col-3">
                 <h3>usefull links</h3>
@@ -262,7 +265,7 @@ else
                 <h3>Social Media</h3>
                 <ul>
                     <li><a href="https://www.facebook.com/">Facebook </a></li>
-                    <li> <a href="https://www.twitter.com/">twitter</a> </li>
+                    <li> <a href="https://www.twitter.com/">Twitter</a> </li>
                     <li><a href="https://www.instagram.com/">Instagram</a> </li>
                     <li><a href="https://www.github.com/">GitHub </a></li>
 
@@ -270,7 +273,7 @@ else
             </div>
         </div>
         <hr>
-        <p class="copyright"> Copyright 2020 - WildCard™</p>
+        <p class="copyright"> Copyright 2022 - Group 17 ™</p>
     </div>
 </div>
 </div>
