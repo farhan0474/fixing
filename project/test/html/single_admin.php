@@ -19,7 +19,7 @@ session_start();
       <div class="container">
           <div class="navbar">
           <div class = "logo">
-              <a href="test.php"><img src="pics/logocom.png" width="125px"></a>
+              <a href="test.php"><img class="logo" src="pics/logocom.jpg"></a>
           </div>
           <nav>
               <ul id="menuitems"  >
@@ -143,11 +143,10 @@ $result = $conn->query($query);
                 </div>
             </div>
             <div class="footer-col-2">
-                <img src="pics/logopurple.jpg">
-                <p> designer for everyone</p>
+                <img src="pics/footerlogo.jpg">
             </div>
             <div class="footer-col-3">
-                <h3>usefull links</h3>
+                <h3>Useful Links</h3>
                 <ul>
 
                   
@@ -172,18 +171,17 @@ _END;
                 </ul>
             </div>
              <div class="footer-col-4">
-                <h3>Socail Media</h3>
-                <ul>
+                 <h3>Social Media</h3>
+                 <ul>
                     <li><a href="https://www.facebook.com/">Facebook </a></li>
                     <li> <a href="https://www.twitter.com/">Twitter</a> </li>
                     <li><a href="https://www.instagram.com/">Instagram</a> </li>
                     <li><a href="https://www.github.com/">GitHub </a></li>
-
-                </ul>
+                 </ul>
             </div>
         </div>
         <hr>
-        <p class="copyright"> Copyright 2020 - WildCard™</p>
+        <p class="copyright"> Copyright 2022 - Group 17 ™</p>
     </div>
 </div>
 </div>
