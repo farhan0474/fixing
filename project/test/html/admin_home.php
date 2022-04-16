@@ -82,19 +82,25 @@ if ($conn->connect_error) die($conn->connect_error);
       <div class="tinycontainer">
       <div class="row">
     <div class="col-3">
-           
-    <img src="pics/imazzzges.jfif">
-
-        
+        <form id="form1" action="products_admin.php" method="post">
+            <input type="hidden" name="collec" value="yes">
+            <input type="hidden" name="num" value="1">
+            <a href="#" onclick="document.getElementById('form1').submit();"><img src="pics/adidaslogo.jpg"></a>
+        </form>
     </div>
     <div class="col-3">
-         
-    <img src="pics/supremelogo.jfif">
+        <form id="form2" action="products_admin.php" method="post">
+            <input type="hidden" name="collec" value="yes">
+            <input type="hidden" name="num" value="5">
+            <a href="#" onclick="document.getElementById('form2').submit();"><img src="pics/nikelogo.jpg"></a>
+        </form>
     </div>
     <div class="col-3">
-        
-    <img src="pics/lvlogo2.png">
-
+        <form id="form3" action="products_admin.php" method="post">
+            <input type="hidden" name="collec" value="yes">
+            <input type="hidden" name="num" value="2">
+            <a href="#" onclick="document.getElementById('form3').submit();"><img src="pics/pumalogo.png"></a>
+        </form>
     </div>
     </div>
 </div>
@@ -157,19 +163,19 @@ if ($conn->connect_error) die($conn->connect_error);
       <div class="small-container">
           <div class="row">
               <div class="col-5">
-                  <img src="pics/lvgold.jfif">
+                  <a href="https://www.adidas.ca/en"><img src="pics/adidaslogowhite.png"></a>
               </div>
               <div class="col-5">
-                  <img src="pics/vgold.jfif">
+                  <a href="https://ca.puma.com/ca/en"><img src="pics/pumalogowhite.jpg"></a>
               </div>
               <div class="col-5">
-                  <img src="pics/blogo.jfif">
+                  <a href="https://www.vans.ca/en-ca"><img src="pics/vanslogowhite.jpg"></a>
               </div>
               <div class="col-5">
-                  <img src="pics/supremewhite.png">
+                  <a href="https://converse.ca/"><img src="pics/converselogowhite.jpg"></a>
               </div>
               <div class="col-5">
-                  <img src="pics/flogo.jfif">
+                  <a href="https://www.nike.com/ca/"><img src="pics/nikelogowhite.png"></a>
               </div>
               
           </div>

@@ -86,23 +86,23 @@ _END;
         <form id="form1" action="products.php" method="post">
             <input type="hidden" name="collec" value="yes">
             <input type="hidden" name="num" value="1">
-    <a href="#" onclick="document.getElementById('form1').submit();"><img src="pics/adidaslogo.jpg"></a>
-</form>
+            <a href="#" onclick="document.getElementById('form1').submit();"><img src="pics/adidaslogo.jpg"></a>
+        </form>
         
     </div>
     <div class="col-3">
          <form id="form2" action="products.php" method="post">
             <input type="hidden" name="collec" value="yes">
             <input type="hidden" name="num" value="5">
-    <a href="#" onclick="document.getElementById('form2').submit();"><img src="pics/nikelogo.jpg"></a>
-</form>
+            <a href="#" onclick="document.getElementById('form2').submit();"><img src="pics/nikelogo.jpg"></a>
+         </form>
     </div>
     <div class="col-3">
          <form id="form3" action="products.php" method="post">
             <input type="hidden" name="collec" value="yes">
             <input type="hidden" name="num" value="2">
-    <a href="#" onclick="document.getElementById('form3').submit();"><img src="pics/pumalogo.png"></a>
-</form>
+            <a href="#" onclick="document.getElementById('form3').submit();"><img src="pics/pumalogo.png"></a>
+         </form>
     </div>
     </div>
 </div>
