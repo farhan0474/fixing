@@ -162,7 +162,7 @@ function get_post($conn, $var)
             <img src="pics/footerlogo.jpg">
             </div>
             <div class="footer-col-3">
-                <h3>usefull links</h3>
+                <h3>Useful Links</h3>
                 <ul>
 
                   
@@ -200,7 +200,7 @@ else
             </div>
         </div>
         <hr>
-        <p class="copyright"> Copyright 2020 - WildCard™</p>
+        <p class="copyright"> Copyright 2022 - Group 17 ™</p>
     </div>
 </div>
 </div>

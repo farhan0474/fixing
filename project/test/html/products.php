@@ -62,10 +62,8 @@ else
       
       <div class="row row-2">
           <?php
-$hn = 'localhost'; //hostname
-$db = 'mahmoud2_mahmoud2db'; //database
-$un = 'mahmoud2_mahmoud2db'; //username
-$pw = 'mypassword'; //password
+include 'login.php';
+
 $conn = new mysqli($hn, $un, $pw, $db);
 if ($conn->connect_error) die($conn->connect_error);
 
@@ -229,9 +227,13 @@ for ($j = 0;$j < $rows;++$j)
             </div>
             <div class="footer-col-2">
                 <img src="pics/footerlogo.jpg">
+<<<<<<< HEAD
+                <p> designer for everyone</p>
+=======
+>>>>>>> main
             </div>
             <div class="footer-col-3">
-                <h3>usefull links</h3>
+                <h3>Useful Links</h3>
                 <ul>
 
                   
