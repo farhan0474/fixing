@@ -114,9 +114,9 @@
                       <img src="pics/2002.png" class="excpic">
                   </div>
                   <div class="col-2">
-                      <p>Limited Stock!</p>
-                      <h1>LV JACKET</h1>
-                      <small> sadsdasdsadsadasd</small>
+                      <p>Fresh Merch</p>
+                      <h1>New Stuff</h1>
+                      <small> Something</small>
                   </div>
               </div>
           </div>
