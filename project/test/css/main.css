@@ -425,6 +425,14 @@ ul {
     display:none;
 }
 
+div.video{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
 /* ALL producgts */
 
 .row-2{
