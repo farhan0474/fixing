@@ -527,23 +527,12 @@ th:las-child{
 .slider{
     width: 250px;
     height:200px;
-    background: url(../html/pics/slider/200111.jfif);
+    background: url(../html/pics/slider/dior1s.jfif);
     animation:slide 20s infinite;
 }
 @keyframes slide{
-    20%{
-        background: url(../html/pics/slider/201030.jfif);
-    }
-    40%{
-        background: url(../html/pics/slider/201041.jfif);
-    }
-    60%{
-        background: url(../html/pics/slider/201111.jfif);
-    }
-    80%{
-        background: url(../html/pics/slider/dior1s.jfif);
-    }
-    100%{
+
+    50%{
         background: url(../html/pics/slider/dior1sdown.jfif);
     }
 }
