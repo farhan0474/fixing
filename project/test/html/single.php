@@ -158,7 +158,7 @@ _END;
                 </ul>
             </div>
              <div class="footer-col-4">
-                <h3>Socail Media</h3>
+                <h3>Social Media</h3>
                 <ul>
                     <li><a href="https://www.facebook.com/">Facebook </a></li>
                     <li> <a href="https://www.twitter.com/">Twitter</a> </li>
