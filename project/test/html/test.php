@@ -232,7 +232,7 @@ _END;
                 <h3>Social Media</h3>
                 <ul>
                     <li><a href="https://www.facebook.com/">Facebook </a></li>
-                    <li> <a href="https://www.twitter.com/">twitter</a> </li>
+                    <li> <a href="https://www.twitter.com/">Twitter</a> </li>
                     <li><a href="https://www.instagram.com/">Instagram</a> </li>
                     <li><a href="https://www.github.com/">GitHub </a></li>
 
