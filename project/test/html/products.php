@@ -228,7 +228,7 @@ for ($j = 0;$j < $rows;++$j)
                 </div>
             </div>
             <div class="footer-col-2">
-                <img src="pics/logopurple.jpg">
+                <img src="pics/footerlogo.jpg">
                 <p> designer for everyone</p>
             </div>
             <div class="footer-col-3">

@@ -206,11 +206,15 @@ for ($j = 0;$j < $rows;++$j)
                 <p>  On All Platforms</p>
                 <div class="app-logo">
                 <a href="https://play.google.com/store"><img src="pics/googlelogo.png"></a>
+<<<<<<< Updated upstream
                 <a href="https://www.apple.com/ca/app-store/"><img src="pics/appstore.png"></a>
+=======
+                    <a href="https://www.apple.com/ca/app-store/"><img src="pics/appstore.png"></a>
+>>>>>>> Stashed changes
                 </div>
             </div>
             <div class="footer-col-2">
-                <img src="pics/logopurple.jpg">
+                <img src="pics/footerlogo.jpg">
                 <p> designer for everyone</p>
             </div>
             <div class="footer-col-3">
