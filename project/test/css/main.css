@@ -524,33 +524,29 @@ th:las-child{
     color:#fff;
 }
 
-
 .slider{
     width: 250px;
     height:200px;
-    background: url(../html/pics/slider/200111.jpg);
+    background: url(../html/pics/slider/200111.jfif);
     animation:slide 20s infinite;
 }
 @keyframes slide{
     20%{
-        background: url(../html/pics/slider/201030.jpg);
+        background: url(../html/pics/slider/201030.jfif);
     }
     40%{
-        background: url(../html/pics/slider/201041.jpg);
-    }   
+        background: url(../html/pics/slider/201041.jfif);
+    }
     60%{
-        background: url(../html/pics/slider/201111.jpg);
-    }  
+        background: url(../html/pics/slider/201111.jfif);
+    }
     80%{
         background: url(../html/pics/slider/dior1s.jfif);
-    }    
+    }
     100%{
         background: url(../html/pics/slider/dior1sdown.jfif);
     }
 }
-
-
-
 /* small screens */
 
 @media only screen and (max-width: 800px){
