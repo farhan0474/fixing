@@ -3,49 +3,137 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8" />
-        <meta name="description" content="Online info page of <?php echo $profile->fullName()?>. Learn more about me and download a vCard." />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Miranda</title>
 
-        <title>Creating a PHP and CSS Powered About Page  | Tutorialzine Demo</title>
-
-        <!-- Our CSS stylesheet file -->
-        <link rel="stylesheet" href="assets/css/styles.css" />
-
-        <!--[if lt IE 9]>
-          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+        <link rel="stylesheet" href="../css/main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     </head>
 
     <body>
 
-        <section id="infoPage">
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class = "logo">
+                    <a href="test.php"><img class="logo" src="pics/logocom.jpg"></a>
+                </div>
+                <nav>
+                    <ul id="menuitems">
 
-            <img src="<?php echo $profile->photoURL()?>" alt="<?php echo $profile->fullName()?>" width="164" height="164" />
+                        <li><a href="test.php">Home</a></li>
 
-            <header>
-                <h1><?php echo $profile->fullName()?></h1>
-                <h2><?php echo $profile->tags()?></h2>
-            </header>
+                        <li><a href="products.php">Collection</a></li>
 
-            <p class="description"><?php echo nl2br($profile->description())?></p>
+                        <li><a href="aboutus.php">About us</a></li>
 
-            <a href="<?php echo $profile->facebook()?>" class="grayButton facebook">Find me on Facebook</a>
-            <a href="<?php echo $profile->twitter()?>" class="grayButton twitter">Follow me on Twitter</a>
+                        <?php
+                        if(isset($_SESSION['username'])){
+                            $username = $_SESSION['username'];
+                            echo '<li><a>'.$username.'</a></li>';
+                            echo <<<_END
+                          <li><a href="logout.php" >Log-out</a></li>
+_END;
 
-            <ul class="vcard">
-                <li class="fn"><?php echo $profile->fullName()?></li>
-                <li class="org"><?php echo $profile->company()?></li>
-                <li class="tel"><?php echo $profile->cellphone()?></li>
-                <li><a class="url" href="<?php echo $profile->website()?>"><?php echo $profile->website()?></a></li>
-            </ul>
 
-        </section>
+                        }
+                        else
+                        {
+                            echo ' <li><a href="loginpage.php">Log-in</a></li><li><a href="register.php">Register</a></li>';
+                        }
 
-        <section id="links">
-            <a href="?vcard" class="vcard">Download as V-Card</a>
-            <a href="?json" class="json">Get as a JSON feed</a>
-            <p>In this tutorial: <a href="http://www.flickr.com/photos/levycarneiro/4144428707/">Self Portrait</a> by <a href="http://www.flickr.com/photos/levycarneiro/">Levy Carneiro Jr</a></p>
-        </section>
+                        ?>
 
+                    </ul>
+                </nav>
+                <img src="pics/cart.png"style="visibility: hidden;" width="30px" height="30px">
+                <img src="pics/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+    </div>
+
+    <!---Description--->
+    <h1 class="title">About Us</h1>
+    <div class = "center">
+
+        <p>Sit amet venenatis urna cursus eget nunc scelerisque. At auctor urna nunc id cursus metus. Ullamcorper morbi tincidunt ornare massa eget egestas. Scelerisque purus semper eget duis at tellus at urna condimentum. Sit amet purus gravida quis blandit turpis cursus. Risus quis varius quam quisque id diam vel. Auctor augue mauris augue neque. In ante metus dictum at tempor commodo ullamcorper a. Ut placerat orci nulla pellentesque dignissim enim sit amet venenatis. Adipiscing at in tellus integer feugiat scelerisque varius morbi enim. Est lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris vitae ultricies leo integer malesuada nunc vel. A cras semper auctor neque vitae tempus quam pellentesque. Bibendum neque egestas congue quisque egestas. Magnis dis parturient montes nascetur ridiculus mus.<br><br></p>
+
+
+    </div>
+    <div class = "center">
+        <p>Location:<br>401 Sunset Ave, Windsor, ON N9B 3P4<br></p>
+    </div>
+    <div class = "center">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.7914983377095!2d-83.06822768467963!3d42.30431417919064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883b2d77c6ec4bef%3A0x1a44f1192a4e41ee!2sUniversity%20of%20Windsor!5e0!3m2!1sen!2sca!4v1646188660590!5m2!1sen!2sca" width="1200" height="700" style="border:0;" allowfullscreen="" loading="lazy"></iframe><br>
+    </div>
+
+    <!--- footer--->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3> Download our app</h3>
+                    <p>  On All Platforms</p>
+                    <div class="app-logo">
+                        <a href="https://play.google.com/store"><img src="pics/googlelogo.png"></a>
+                        <a href="https://www.apple.com/ca/app-store/"><img src="pics/appstore.png"></a>
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="pics/footerlogo.jpg">
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="test.php">Home</a></li>
+                        <li><a href="products.php">Collection</a></li>
+
+                        <?php
+                        if(isset($_POST['username'])){
+                            $username = get_post($conn,'username');
+                            echo '<li><a>'.$username.'</a></li>';
+                            echo '<li><a href="test.php">Log-out</a></li>';
+
+                        }
+                        else
+                        {
+                            echo ' <li><a href="loginpage.php">Log-in</a></li><li><a href="register.php">Register</a></li>';
+                        }
+
+                        ?>
+
+
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Social Media</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/">Facebook </a></li>
+                        <li> <a href="https://www.twitter.com/">Twitter</a> </li>
+                        <li><a href="https://www.instagram.com/">Instagram</a> </li>
+                        <li><a href="https://www.github.com/">GitHub </a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright"> Copyright 2022 - Group 17 ™</p>
+        </div>
+    </div>
+    <script>
+        var menuitems= document.getElementById("menuitems");
+        menuitems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(menuitems.style.maxHeight == "0px")
+            {
+                menuitems.style.maxHeight = "200px";
+            }
+            else{
+                menuitems.style.maxHeight = "0px";
+            }
+        }
+    </script>
     </body>
 </html>

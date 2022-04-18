@@ -33,6 +33,8 @@ if (isset($_SESSION['usercode']))
                   <li><a href="test.php">Home</a></li>
 
                   <li><a href="products.php">Collection</a></li>
+
+                  <li><a href="aboutus.php">About us</a></li>
                    <?php
 if (isset($_SESSION['username']))
 {
