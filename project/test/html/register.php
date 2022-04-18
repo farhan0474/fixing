@@ -21,18 +21,7 @@ session_start();
           <div class = "logo">
           <a href="test.php"><img class="logo" src="pics/logocom.jpg"></a>
           </div>
-          <nav>
-              <ul id="menuitems" style="visibility:hidden;">
-             <li><a href="test.php">Home</a></li>
-
-                  <li><a href="products.php">Collection</a></li>
-                  <li><a href="loginpage.php">Login</a></li>
-                  <li><a href="register.php">Register</a></li>
-              </ul>
-          </nav>
-          <a href="cart.php"><img src="pics/cart.png" style="visibility: hidden;" width="30px" height="30px"></a>
-          <img src="pics/menu.png" class="menu-icon" style="visibility:hidden;" onclick="menutoggle()">
-      </div>
+          </div>
       </div>
       
       <?php
@@ -119,7 +108,7 @@ function get_post($conn, $var)
       <div class="container">
           <div class="row">
               <div class="col-2">
-            <!--------------------- enter pic ------------>
+              <img src="pics/registerpage.jpg" style="border-radius: 50px;">
             </div>
               <div class="col-2">
                   <div class="form-container2">

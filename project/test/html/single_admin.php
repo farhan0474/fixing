@@ -52,6 +52,7 @@ if ($conn->connect_error) die($conn->connect_error);
               }
 
 ?>
+
               </ul>
           </nav>
           <img src="pics/menu.png" class="menu-icon"  onclick="menutoggle()">
