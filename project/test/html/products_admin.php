@@ -36,6 +36,7 @@ else{
                   
                   <li><a href="admin_home.php">Home</a></li>
                   <li><a href="products_admin.php">Edit Collection</a></li>
+                  <li><a href="aboutus.php">About us</a></li>
 <li><a>Admin</a></li>
                           <li><a href="logout.php" >Sign-out</a></li>
 
