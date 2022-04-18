@@ -38,8 +38,7 @@ else{
                   <li><a href="products_admin.php">Edit Collection</a></li>
                   <li><a href="aboutus.php">About us</a></li>
 <li><a>Admin</a></li>
-                          <li><a href="logout.php" >Sign-out</a></li>
-
+                          <li><a href="logout.php" >Log-out</a></li>
               </ul>
           </nav>
           <img src="pics/menu.png" class="menu-icon" onclick="menutoggle()">

@@ -1,4 +1,6 @@
-
+<?php
+session_start();
+?>
 
 <!DOCTYPE html>
 <html>
@@ -12,7 +14,15 @@
     </head>
 
     <body>
-
+    <?php
+    if (isset($_SESSION['usercode']))
+    {
+        if ($_SESSION['usercode'] == 1)
+        {
+            header("Location: admin_home.php");
+        }
+    }
+    ?>
     <div class="header">
         <div class="container">
             <div class="navbar">
