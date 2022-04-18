@@ -15,25 +15,13 @@ session_start();
       
   </head>
   <body>
-      
+
       <div class="container">
           <div class="navbar">
           <div class = "logo">
             <a href="test.php"><img class="logo" src="pics/logocom.jpg"></a>
           </div>
-          <nav>
-              <ul id="menuitems"style="visibility:hidden;">
-                  
-                    
-                  <li><a href="test.php">Home</a></li>
-
-                  <li><a href="products.php">Collection</a></li>
-                  <li><a href="loginpage.php">Login</a></li>
-                  <li><a href="register.php">Register</a></li>
-              </ul>
-          </nav>
-          <img src="pics/cart.png" style="visibility: hidden;" width="30px" height="30px">
-          <img src="pics/menu.png" class="menu-icon" onclick="menutoggle()">      </div>
+          </div>
       </div>
       
       
@@ -106,6 +94,7 @@ function get_post($conn, $var)
           <div class="row">
               <div class="col-2">
                   <!------------------------INSERT PICTURE ------------->
+                  <img src="pics/203001.jpg">
               </div>
               <div class="col-2">
                   <div class="form-container">
