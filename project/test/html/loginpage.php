@@ -94,7 +94,7 @@ function get_post($conn, $var)
           <div class="row">
               <div class="col-2">
                   <!------------------------INSERT PICTURE ------------->
-                  <img src="pics/203001.jpg">
+                <img src="pics/loginpage.jpg" style="border-radius: 50px;">
               </div>
               <div class="col-2">
                   <div class="form-container">

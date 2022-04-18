@@ -108,7 +108,7 @@ function get_post($conn, $var)
       <div class="container">
           <div class="row">
               <div class="col-2">
-            <!--------------------- enter pic ------------>
+              <img src="pics/registerpage.jpg" style="border-radius: 50px;">
             </div>
               <div class="col-2">
                   <div class="form-container2">
