@@ -9,7 +9,8 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The most unique shoe website you will ever find! "/>
     <meta name="keywords" content="Adidas, Nike, Puma, Converse, Vans "/>
-    <title>Miranda</title>
+    <title>About us</title>
+    <script  type="text/jsx" src="likeDislike.js"></script>
     <link rel="stylesheet" href="../css/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
@@ -88,6 +89,13 @@ _END;
 </div>
 <div class = "center">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.7914983377095!2d-83.06822768467963!3d42.30431417919064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883b2d77c6ec4bef%3A0x1a44f1192a4e41ee!2sUniversity%20of%20Windsor!5e0!3m2!1sen!2sca!4v1646188660590!5m2!1sen!2sca" width="1200" height="700" style="border:0;" allowfullscreen="" loading="lazy"></iframe><br>
+</div>
+<div>
+    <div className="likeDislike">
+        <div></div>
+        <button onclick=likef()>Like</button>
+        <button onclick=dislikef()>Dislike</button>
+    </div>
 </div>
 
 <!--- footer-->

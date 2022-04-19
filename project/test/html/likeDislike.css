@@ -1,0 +1,22 @@
+.likeDislike{
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 10px;
+}
+.active-like{
+    backgroun-color:blue;
+}
+
+.active-dislike{
+    backgroun-color:red;
+}
+
+.button{
+    border-radius: 8px;
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    Dvertluw: hidden;
+    cursor: pointer;
+}

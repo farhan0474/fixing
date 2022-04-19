@@ -13,8 +13,6 @@ session_start();
       <title>Miranda - Shoe Store</title>
       <link rel="stylesheet" href="../css/main.css">
       <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-      
-      
   </head>
   <body>
       <?php
