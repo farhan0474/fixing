@@ -65,7 +65,6 @@ else
 ?>
               </ul>
           </nav>
-          <a href="cart.php"><img src="pics/cart.png" style="visibility: hidden;" width="30px" height="30px"></a>
           <img src="pics/menu.png" class="menu-icon" onclick="menutoggle()">
       </div>
 
