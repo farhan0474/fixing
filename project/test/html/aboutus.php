@@ -26,6 +26,7 @@ if (isset($_SESSION['usercode']))
     }
 }
 ?>
+<!--header-->
 <div class="header">
     <div class="container">
         <div class="navbar">
