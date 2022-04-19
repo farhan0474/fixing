@@ -25,7 +25,7 @@ if (isset($_SESSION['usercode']))
       <div class="container" >
           <div class="navbar">
           <div class = "logo">
-            <a href="test.php"><img class="logo" src="pics/logocom.jpg"></a>
+              <a href="test.php"><img class="logo" src="pics/logocom.jpg" alt="logo of the website"></a>
           </div>
           <nav>
               <ul id="menuitems">
@@ -42,6 +42,7 @@ if (isset($_SESSION['username']))
     echo '<li><a>' . $username . '</a></li>';
     echo <<<_END
                           <li><a href="logout.php" >Log-out</a></li>
+                          <li><a href="support.php" >Help</a></li>
 <li><a href="cart.php"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
      width="40px" height="24px" viewBox="0 0 40 36" style="enable-background:new 0 0 40 36;" xml:space="preserve">
 <g id="Page-14" sketch:type="MSPage">
@@ -65,7 +66,7 @@ else
 ?>
               </ul>
           </nav>
-          <img src="pics/menu.png" class="menu-icon" onclick="menutoggle()">
+              <img src="pics/menu.png" alt="menu logo" class="menu-icon" onclick="menutoggle()">
       </div>
 
   </div>
@@ -100,9 +101,9 @@ else
 ?>
           <form id="jsform" action="products.php" method="post">
           <select name="sorting" onchange="sortlist()">
-              <option value="0"> </option>
-              <option value="1">Price &#8593</option>
-              <option value="2">Price &#8595</option>
+              <option value="0" label="empty"> </option>
+              <option value="1" label="ascending">Price &#8593;</option>
+              <option value="2" label="descending">Price &#8595;</option>
           </select>
           </form>
       </div>
@@ -183,7 +184,7 @@ for ($j = 0;$j < $rows;++$j)
 
    echo "<a href='";
    printf("%s?item_id=%s","single.php" , $item_id);
-   echo "'><img src='$pic2'></a>";
+   echo "'><img src='$pic2' alt='shoe pic'></a>";
     
    
     $result->data_seek($j);
@@ -219,7 +220,7 @@ for ($j = 0;$j < $rows;++$j)
 */
 
 ?>
-      </div> ---->
+      </div> -->
       </div>
 
       <div class="video">
@@ -251,7 +252,7 @@ for ($j = 0;$j < $rows;++$j)
           }
           ?>
       </div>
-<!--- footer--->
+<!--- footer-->
 <div class="footer">
     <div class="container">
         <div class="row">
@@ -259,12 +260,12 @@ for ($j = 0;$j < $rows;++$j)
                 <h3> Download our app</h3>
                 <p>  On All Platforms</p>
                 <div class="app-logo">
-                <a href="https://play.google.com/store"><img src="pics/googlelogo.png"></a>
-                    <a href="https://www.apple.com/ca/app-store/"><img src="pics/appstore.png"></a>
+                    <a href="https://play.google.com/store"><img src="pics/googlelogo.png" alt = "logo of google playstore"></a>
+                    <a href="https://www.apple.com/ca/app-store/"><img src="pics/appstore.png" alt = "logo of appstore"></a>
                 </div>
             </div>
             <div class="footer-col-2">
-                <img src="pics/footerlogo.jpg">
+                <img src="pics/footerlogo.jpg" alt = "logo of footer">
             </div>
             <div class="footer-col-3">
                 <h3>Useful Links</h3>
@@ -307,7 +308,6 @@ else
         <hr>
         <p class="copyright"> Copyright 2022 - Group 17 ™</p>
     </div>
-</div>
 </div>
 <script>
     var menuitems= document.getElementById("menuitems");

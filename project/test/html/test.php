@@ -43,6 +43,7 @@ session_start();
                           echo '<li><a>'.$username.'</a></li>';
                           echo <<<_END
                           <li><a href="logout.php" >Log-out</a></li>
+                          <li><a href="support.php" >Help</a></li>
                           <li><a href="cart.php"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
      width="40px" height="24px" viewBox="0 0 40 36" style="enable-background:new 0 0 40 36;" xml:space="preserve">
 <g id="Page-14" sketch:type="MSPage">
