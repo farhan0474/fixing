@@ -20,7 +20,7 @@ session_start();
       <div class="container">
           <div class="navbar">
           <div class = "logo">
-            <a href="test.php"><img class="logo" src="pics/logocom.jpg"></a>
+              <a href="test.php"><img class="logo" src="pics/logocom.jpg" alt="logo of the website"></a>
           </div>
           </div>
       </div>
@@ -88,14 +88,14 @@ function get_post($conn, $var)
 
 ?>
 
-  <!---- login page --->
+  <!--login page-->
   
   <div class="account-page">
       <div class="container">
           <div class="row">
               <div class="col-2">
-                  <!------------------------INSERT PICTURE ------------->
-                <img src="pics/loginpage.jpg" style="border-radius: 50px;">
+                  <!--PICTURE-->
+                <img src="pics/loginpage.jpg" alt="image on the left" style="border-radius: 50px;">
               </div>
               <div class="col-2">
                   <div class="form-container">
@@ -118,7 +118,7 @@ function get_post($conn, $var)
 
   
   
-<!--- footer--->
+<!---footer-->
 <div class="footer">
     <div class="container">
         <div class="row">
@@ -126,13 +126,12 @@ function get_post($conn, $var)
                 <h3> Download our app</h3>
                 <p>  On All Platforms</p>
                 <div class="app-logo">
-                    <a href="https://play.google.com/store"><img src="pics/googlelogo.png"></a>
-                    <a href="https://www.apple.com/ca/app-store/"><img src="pics/appstore.png"></a>
+                    <a href="https://play.google.com/store"><img src="pics/googlelogo.png" alt = "logo of google playstore"></a>
+                    <a href="https://www.apple.com/ca/app-store/"><img src="pics/appstore.png" alt = "logo of appstore"></a>
                 </div>
             </div>
             <div class="footer-col-2">
-
-            <img src="pics/footerlogo.jpg">
+                <img src="pics/footerlogo.jpg" alt = "logo of footer">
             </div>
             <div class="footer-col-3">
                 <h3>Useful Links</h3>
@@ -175,7 +174,6 @@ else
         <hr>
         <p class="copyright"> Copyright 2022 - Group 17 ™</p>
     </div>
-</div>
 </div>
 <script>
     var menuitems= document.getElementById("menuitems");

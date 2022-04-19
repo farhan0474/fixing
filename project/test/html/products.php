@@ -126,9 +126,6 @@ $result = $conn->query($query);
 if (!$result) die($conn->error);
 
 $rows = $result->num_rows;
-
-//shuffle($result);
-
 ?>
     <div class='row'>
     
@@ -208,19 +205,7 @@ for ($j = 0;$j < $rows;++$j)
 
 }
 ?>
-          
-          
       </div>
-      
-     <!--- <div class="page-buttons">
-          <?php
-/* for($j=0,$k=1 ; $j < $rows ; $j=$j+16,$k++){
-              echo "<span>$k</span>";
-          }
-*/
-
-?>
-      </div> -->
       </div>
 
       <div class="video">

@@ -309,7 +309,6 @@ h4{
 
 .form-container span {
     font-weight:bold;
-    padding:#555;
     width: 100px;
     display: inline-block;
 }
@@ -531,9 +530,6 @@ td img{
 td:last-child{
     text-align:right;
 }
-th:las-child{
-    text-align:right;
-}
 
 .page-buttons span:hover{
     background: #FF0000;
@@ -550,5 +546,49 @@ th:las-child{
 
     50%{
         background: url(../html/pics/slider/dior1sdown.jfif);
+    }
+}
+
+/* small screens */
+
+@media only screen and (max-width: 800px){
+    nav ul{
+        position: absolute;
+        top:70px;
+        left:0;
+        background: #333;
+        width:100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li{
+        display:block;
+        margin-right:50px;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+
+    nav ul li a{
+        color:#fff;
+    }
+    .menu-icon{
+        display:block;
+        cursor:pointer;
+    }
+
+}
+
+/* less then 600 size */
+
+@media only screen and (max-width: 600px){
+
+    .row{
+        text-align:center;
+    }
+    .col-2,.col-3,.col-4{
+        flex-basis: 100%;
+    }
+    .cart-info{
+        display:none;
     }
 }

@@ -83,7 +83,7 @@ _END;
     <br><hr><br>
     2. What are the highlights? <br>
     Our website mainly deals in high-end shoe retail, however our most popular choices are highlighted on the homepage<br> and clicking on any of them takes to their home(For people with brand preferances). <br>
-    <img src="pics/FUSupp.JPG"> <br>
+    <img src="pics/FUSupp.JPG" alt="Picture of featured shoes logo"> <br>
     <br><hr><br>
     3.How do I become a member?(exclusives are in a very near future.) <br>
     On the navigation bar there is a register button as visible saw in the image for the 1st suggestion.<br>

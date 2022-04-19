@@ -74,59 +74,52 @@ function get_post($conn, $var)
   }
 
 ?>
+      <!--header-->
       <div class="container">
           <div class="navbar">
           <div class = "logo">
-              <a href="test.php"><img class="logo" src="pics/logocom.jpg"></a>
+              <a href="test.php"><img class="logo" src="pics/logocom.jpg" alt="logo of the website"></a>
           </div>
           <nav>
-              <ul id="menuitems" style="visiblity: hidden;">
-                  
-                
-
-              </ul>
+              <ul id="menuitems" style="visiblity: hidden;"></ul>
           </nav>
-      </div>
-
-  </div>
-  
-<div class="account-page">
-      <div class="container">
-          <div class="row">
-              <div class="col-2">
-            <!--------------------- enter pic ------------>
-            </div>
-              <div class="col-2">
-                  <div class="form-container2">
-                      <div class="form-btn">
-                          <span>Add</span>
-                          <hr id="indicator">
-                      </div>
-                     <form action='admin_add.php' method='post' id="regForm" enctype='multipart/form-data'>
-                          <input type="hidden" name="add" value="yes">
-                          <input type="text" required name="itemName" placeholder="Item Name">
-                          <input type="number" required name="itemPrice" placeholder="Price">
-                          <input type="number" required name="itemQuantity" placeholder="Quantity">
-                          <input type="text"  required name="itemDesc" placeholder="Description">
-                            <input type='file' required name='filename' size='10'>
-                          <select name="Category" required id="Category">
-                              <option value="1">1</option>
-                              <option value="2">2</option>
-                              <option value="3">3</option>
-                              <option value="4">4</option>
-                              <option value="5">5</option>
-                          </select>
-                          <button type="submit"  value="add" class="btn">Upload</button>
-                      </form>
-                  </div>
-              </div>
           </div>
       </div>
-  </div>
 
-  
-  
-  
+
+    <!--asking user to add an item-->
+    <div class="account-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-2">
+                    <div class="form-container2">
+                        <div class="form-btn">
+                            <span>Add</span>
+                            <hr id="indicator">
+                        </div>
+                        <form action='admin_add.php' method='post' id="regForm" enctype='multipart/form-data'>
+                            <input type="hidden" name="add" value="yes">
+                            <input type="text" required name="itemName" placeholder="Item Name">
+                            <input type="number" required name="itemPrice" placeholder="Price">
+                            <input type="number" required name="itemQuantity" placeholder="Quantity">
+                            <input type="text"  required name="itemDesc" placeholder="Description">
+                            <input type='file' required name='filename' size='10'>
+                            <select name="Category" required id="Category">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                            <button type="submit"  value="add" class="btn">Upload</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 <!--- footer--->
 <div class="footer">
     <div class="container">
@@ -135,12 +128,12 @@ function get_post($conn, $var)
                 <h3> Download our app</h3>
                 <p>  On All Platforms</p>
                 <div class="app-logo">
-                    <a href="https://play.google.com/store"><img src="pics/googlelogo.png"></a>
-                    <a href="https://www.apple.com/ca/app-store/"><img src="pics/appstore.png"></a>
+                    <a href="https://play.google.com/store"><img src="pics/googlelogo.png" alt = "logo of google playstore"></a>
+                    <a href="https://www.apple.com/ca/app-store/"><img src="pics/appstore.png" alt = "logo of appstore"></a>
                 </div>
             </div>
             <div class="footer-col-2">
-            <img src="pics/footerlogo.jpg">
+                <img src="pics/footerlogo.jpg" alt = "logo of footer">
             </div>
             <div class="footer-col-3">
                 <h3>Useful Links</h3>
