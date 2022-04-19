@@ -68,18 +68,18 @@ _END;
 
                 </ul>
             </nav>
-            <img src="pics/menu.png" class="menu-icon" onclick="menutoggle()">
+            <img src="pics/menu.png" alt="menu logo" class="menu-icon" onclick="menutoggle()">
         </div>
     </div>
 </div>
 
-<!---Description--->
+<!---Description-->
 <h1 class="title">User Support</h1>
 <div style="margin-left: 20%; margin-right: 20%;">
     <p> Below are some tips to navigate the website.</p>
     1. How to view the entire collection?.<br>
     After the user enters the website,the user can click on collection button from the navigation bar to view the enire collection.
-    <img src="pics/UGen.JPG"> <br>
+    <img src="pics/UGen.JPG" alt="Picture of Navbar of homepage"> <br>
     <br><hr><br>
     2. What are the highlights? <br>
     Our website mainly deals in high-end shoe retail, however our most popular choices are highlighted on the homepage<br> and clicking on any of them takes to their home(For people with brand preferances). <br>
@@ -91,7 +91,7 @@ _END;
     Look at the navigation bar above and click on the log-in button, where pre-registered users can log-in.
     <br><br><br>
 </div>
-<!--- footer--->
+<!--- footer-->
 <div class="footer">
     <div class="container">
         <div class="row">
@@ -99,12 +99,12 @@ _END;
                 <h3> Download our app</h3>
                 <p>  On All Platforms</p>
                 <div class="app-logo">
-                    <a href="https://play.google.com/store"><img src="pics/googlelogo.png"></a>
-                    <a href="https://www.apple.com/ca/app-store/"><img src="pics/appstore.png"></a>
+                    <a href="https://play.google.com/store"><img src="pics/googlelogo.png" alt = "logo of google playstore"></a>
+                    <a href="https://www.apple.com/ca/app-store/"><img src="pics/appstore.png" alt = "logo of appstore"></a>
                 </div>
             </div>
             <div class="footer-col-2">
-                <img src="pics/footerlogo.jpg">
+                <img src="pics/footerlogo.jpg" alt = "logo of footer">
             </div>
             <div class="footer-col-3">
                 <h3>Useful Links</h3>
